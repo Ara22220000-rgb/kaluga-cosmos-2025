@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Личный кабинет</title>
+    <link rel="stylesheet" href="account.css">
+    <link rel="icon" href="logo.png">
+</head>
+<body>
+<div class="a">
+<div><img src="logo.png" width="50" style="margin: 5px;">&nbsp;</div>
+<div class="aa">
+<div><a href="index.html#login">Выйти</a>&nbsp;</div>
+<div><a href="index.html#about">О&nbsp;нас</a>&nbsp;</div>
+<div><a href="index.html#slide">Конкурсы</a>&nbsp;</div>
+<div><a href="index.html#search">Поиск</a>&nbsp;</div>
+<div><a href="index.html#footer">Контакты</a>&nbsp;</div>
+</div>
+</div>
+<form action="account.html">
+    <fieldset><legend>Запись на конкурс</legend>
+    <select required>
+    <option disabled selected hidden>Выберите конкурс</option>
+    <option>Конкурс на лучший рецепт</option>
+    <option>Конкурс фотографий</option>
+    <option>Конкурс на лучший рассказ</option>
+    <option>Конкурс талантов</option>
+    <option>Конкурс костюмов</option>
+    <option>Конкурс видеороликов</option>
+    <option>Конкурс чтецов</option>
+    <option>Конкурс на лучший дизайн</option>
+    <option>Конкурс на лучшее эссе</option>
+    <option>Конкурс на лучшее исполнение песни</option>
+    </select><br><br>
+    <input type="date" min="2024-07-08" max="2024-07-08" value="2024-07-08" required><br><br>
+    <input type="time" min="09:00" max="21:00" value="09:00" required><br><br>
+    <input type="number" min="1" placeholder="Кол-во участников" required><br><br>
+    <button>Записаться</button>
+    </fieldset>
+</form><br>
+<table width="100%">
+<tr>
+    <td id="footer">
+        <div class="footer">
+            <div style="float: left; width: 25%; height: 100px;">
+            <span style="font-size: 13px;"><b>&copy; 23.02.2025</b></span></div>
+            <div style="float: left; width: 25%; height: 100px;">
+            <span style="font-size: 13px;"><b>Телефон: <a href="" style="font-size: 13px;">+7 (4842) 23-45-67</a></b></span>
+            <br>
+            <span style="font-size: 13px;"><b>E-mail: <a href="" style="font-size: 13px;">family@cosmos.ru</a></b></span>
+            </div>
+            <div style="float: right; width: 25%; height: 100;">
+            <a href="competition.html" class="af">Конкурсы</a><br>
+            <a href="account.html" class="af">Личный кабинет</a><br>
+            <a href="404.html" class="af">Страница не найдена</a><br>
+            </div>
+            <div style="float: none; margin: auto; width: 25%; height: 100;">
+            <a href="index.html" class="af">Тёмная тема</a><br>
+            <a href="index-light.html" class="af">Светлая тема</a><br>
+            <a href="registration.html" class="af">Регистрация</a>
+            </div>
+        </div>
+</td>
+</tr>
+</table>
+</body>
+</html>

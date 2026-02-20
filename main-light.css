@@ -1,0 +1,269 @@
+body {
+    color: blueviolet;
+}
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+a:hover {
+    color: white;
+    text-decoration: underline;
+    transition: .4s;
+    transform: scale(1.1);
+}
+.a {
+    padding: 5px 30px;
+    background-image: url(./img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: static;
+    display: flex;
+    margin: -11px;
+    margin-bottom: 10px;
+}
+.aa {
+    position: static;
+    display: flex;
+    padding-top: 20px;
+}
+h2 {
+    color: black;
+}
+p {
+    text-align: justify;
+    color: black;
+}
+.slide, .slide2, .slide3 {
+    border: 3px solid blueviolet;
+    padding: 30px;
+    border-radius: 40px;
+    padding-right: 0;
+    background-image: url(./img/kaluga_24.jpg);
+    background-size: 470px;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 0;
+}
+#login {
+    border: 3px solid blueviolet;
+    padding: 30px;
+    border-radius: 40px;
+    width: 100%;
+}
+button {
+    padding: 15px;
+    border-radius: 40px;
+    border: none;
+    background-color: blueviolet;
+    color: white;
+}
+.log {
+    padding: 10px;
+    border: none;
+    background-color: rgb(255, 255, 255, 0);
+    border-bottom: 1px solid blueviolet;
+    color: blueviolet;
+}
+.log::placeholder {
+    color: blueviolet;
+}
+.but {
+    padding: 10px;
+    border: 1px solid blueviolet;
+    background-color: blueviolet;
+    border-radius: 40px;
+    color: white;
+}
+#about {
+    background-image: url(./img/kaluga_00.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid blueviolet;
+    background-attachment: fixed;
+    padding: 30px;
+    border-radius: 40px;
+    width: 100%;
+}
+#hello {
+    border: 3px solid blueviolet;
+    padding: 30px;
+    border-radius: 40px;
+    width: 100%;
+}
+#video {
+    content: "";
+    width: 300px;
+    height: 170px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url(./img/video.jpg);
+}
+#video:hover {
+   background-image: url(./img/video_hover.png);
+}
+#comp {
+    border: 3px solid blueviolet;
+    padding: 30px;
+    border-radius: 40px;
+    width: 100%;
+}
+#com1 {
+    width: 350px;
+    float: left;
+}
+#com2 {
+    float: right;
+    width: 350px;
+}
+#com3 {
+    width: 350px;
+    height: auto;
+    margin: auto;
+}
+#com4 {
+    width: 400px;
+    float: left;
+}
+#com5 {
+    width: 400px;
+    float: right;
+}
+#search {
+    border: 3px solid blueviolet;
+    padding: 30px;
+    border-radius: 40px;
+    width: 100%;
+}
+input {
+    padding: 10px;
+    border: none;
+    background-color: rgb(255, 255, 255, 0);
+    border-bottom: 1px solid blueviolet;
+    color: blueviolet;
+}
+input::placeholder, textarea::placeholder {
+    color: blueviolet;
+}
+textarea {
+    padding: 10px;
+    background-color: rgb(255, 255, 255, 0);
+    border: 1px solid blueviolet;
+    color: blueviolet;
+}
+#otz {
+    border: 3px solid blueviolet;
+    padding: 30px;
+    border-radius: 40px;
+    width: 100%;
+}
+#otz1 {
+    width: 300px;
+    float: left;
+}
+#otz2 {
+    float: right;
+    width: 300px;
+}
+#otz3 {
+    width: 300px;
+    margin: auto;
+}
+#pod {
+    border: 3px solid blueviolet;
+    padding: 30px;
+    border-radius: 40px;
+    width: 100%;
+}
+.footer {
+    background-image: url(./img/banner1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-size: 15px;
+    padding: 30px;
+    padding-bottom: 7%;
+    margin: -11px;
+}
+.af, h4, span {
+    color: white;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        width: 450px;
+    }
+    .a {
+    position: static;
+    display: block;
+}
+#about {
+    background-image: url(./img/kaluga_00.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid blueviolet;
+    padding: 30px;
+    border-radius: 40px;
+    width: 450px;
+    
+}
+#login {
+    margin-top: 10px;
+    border: 3px solid blueviolet;
+    padding: 30px;
+    border-radius: 40px;
+    width: 450px;
+}
+.slide2, .slide3 {
+    display: none;
+}
+.slide {
+    margin-bottom: 10px;
+    width: 450px;
+}
+#hello {
+    border: 3px solid blueviolet;
+    padding: 30px;
+    border-radius: 40px;
+    width: 450px;
+}
+#comp {
+    border: 3px solid blueviolet;
+    padding: 20px;
+    border-radius: 40px;
+    width: 450px;
+}
+#com1 {
+    width: 400px;
+    float: none;
+}
+#com2 {
+    float: none;
+    width: 400px;
+}
+#com3 {
+    width: 400px;
+    float: none;
+}
+#com4 {
+    width: 400px;
+    float: none;
+}
+#com5 {
+    width: 400px;
+    float: none;
+}
+#otz1 {
+    width: 100%;
+    float: none;
+}
+#otz2, #otz3 {
+    display: none;
+}
+}

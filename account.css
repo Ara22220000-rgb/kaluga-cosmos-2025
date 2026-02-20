@@ -1,0 +1,87 @@
+input {
+    padding: 15px;
+    border: none;
+    border-bottom: 1px solid blueviolet;
+    accent-color: blueviolet;
+    width: 200px;
+}
+select {
+    padding: 15px;
+    border: none;
+    border-bottom: 1px solid blueviolet;
+    width: 227px;
+    color: grey;
+}
+button {
+    padding: 20px;
+    border: 1px solid blueviolet;
+    border-radius: 40px;
+    background-color: blueviolet;
+    color: white;
+    accent-color: blueviolet;
+    width: 227px;
+}
+fieldset {
+    padding: 30px;
+    border: 1px solid blueviolet;
+    border-radius: 30px;
+}
+legend {
+    padding: 10px;
+}
+a {
+color: white;
+text-decoration: none;
+font-size: 20px;
+margin: 5px;
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+padding-top: 100px;
+}
+a:hover {
+color: white;
+text-decoration: underline;
+transition: .4s;
+transform: scale(1.1);
+}
+.a {
+    padding: 5px 30px;
+    background-image: url(./img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: static;
+    display: flex;
+    margin: -11px;
+    margin-bottom: 10px;
+}
+.aa {
+    position: static;
+    display: flex;
+    padding-top: 20px;
+}
+.footer {
+    background-image: url(./img/banner1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-size: 15px;
+    padding: 30px;
+    padding-bottom: 7%;
+    margin: -11px;
+}
+.af, h4, span {
+    color: white;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+@media screen and (max-width: 480px) {
+body {
+width: 450px;
+}
+.a {
+position: static;
+display: block;
+}
+}
